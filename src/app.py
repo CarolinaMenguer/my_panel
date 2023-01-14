@@ -20,8 +20,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as bs
 
-path = "data_fuel.csv"
-path_sae = "data_sae.csv"
+path = "/data_fuel.csv"
+path_sae = "/data_sae.csv"
 
 df = pd.read_csv(path)
 
